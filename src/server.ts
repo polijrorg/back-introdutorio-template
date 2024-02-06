@@ -2,7 +2,6 @@ import express, { Request, Response } from 'express';
 import routes from './routes';
 import morgan from 'morgan';
 
-
 const app = express();
 
 app.use(express.json());
